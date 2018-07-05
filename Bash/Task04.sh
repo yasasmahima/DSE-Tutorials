@@ -1,5 +1,4 @@
 #!/bin/bash
 
-var="!#$^&*?[]\(){}<>~;'\"|"
-
-echo ${#var}
+read var
+printf "${#var}\n"
