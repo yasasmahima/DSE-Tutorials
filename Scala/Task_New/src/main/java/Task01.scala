@@ -1,23 +1,21 @@
 import java.io.FileNotFoundException
 import scala.io.Source
-import org.apache.log4j.{Level, Logger}
+import org.apache.log4j.{BasicConfigurator, Level, Logger,PropertyConfigurator}
 
 
-trait LogHelper {
-  val loggerName = this.getClass.getName
-  lazy val logger = Logger.getLogger(loggerName)
-}
+class Task01  {
 
-
-class Task01 extends LogHelper {
+  val LOGGER = Logger.getLogger(Task01.getClass)
+  //BasicConfigurator.configure()
    try {
+     PropertyConfigurator.configure("src/log4j.properties")
       val file = Source.fromFile("Scala Task 01.txt") //read file
       val x = file.getLines().toList.flatten //make flat map to get each character seperate
 
-      logger.info("Number of characters in the file : " + x.length)//logger info
-
+      LOGGER.info("Task 01 - Number of characters in the file : " + x.length)//logger info
+      //printf("Hello")
     } catch {
-      case e: FileNotFoundException => logger.error("No file found") //logger error
+      case e: FileNotFoundException => LOGGER.error("No file found") //logger error
     }
 
 }
