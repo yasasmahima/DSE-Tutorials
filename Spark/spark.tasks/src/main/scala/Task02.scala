@@ -1,6 +1,6 @@
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{Column, SparkSession}
+import org.apache.spark.sql.functions.{concat, lit}
 import org.apache.log4j.{Level, Logger}
-import java.io._
 
 object Task02 {
 
@@ -16,32 +16,23 @@ object Task02 {
     val rootLogger = Logger.getRootLogger() //get root logger and set level off
     rootLogger.setLevel(Level.OFF)
 
-    val firstNames = sc.textFile("src/main/resources/First Names.txt") //read text files
+    val firstNames = sc.textFile("src/main/resources/First Names.txt")//read text files
     val lastNames = sc.textFile("src/main/resources/Last Names.txt")
 
     val firstNamesMap = firstNames.flatMap(name=> name.split(",")).map(x => (x.split(" ")(1), x.split(" ")(0)))
     val lastNamesMap = lastNames.map(x=> (x.split(" ")(0),x.split(" ")(1)))
 
-    val fullNames = firstNamesMap.join(lastNamesMap).sortByKey(true)
+   val firstNamesDF = spark.createDataFrame(firstNamesMap).toDF("id" , "fName")
 
-    fullNames.coalesce(1).saveAsTextFile("src/main/resources/Full Names.txt")
+   val lastNamesDF = spark.createDataFrame(lastNamesMap).toDF("id" , "lName")
 
-    //val pw = new PrintWriter(new File("src/main/resources/Full Names.txt" ))
-//    fullNames.map(x=>pw.println(x))
-    //pw.close()
+   var fullNamesDF = firstNamesDF.join(lastNamesDF, "id")
 
+    fullNamesDF = fullNamesDF.select(concat(fullNamesDF("fName"), lit(" "), fullNamesDF("lName")) as "Full Name")
 
+    fullNamesDF.show()
 
+    fullNamesDF.write.mode("overwrite").format("text").save("src/main/resources/FullNames.txt")
 
-
-//    val ids = List(fullNames.keys)
-//    val names = List(fullNames.values)
-
-
-
-
-//    fullNames.foreach (x => println (x._1 + "->" + x._2))
-//    fullNames.foreach(line => println(line(0)))
-    //fullNames.foreach(println)
   }
 }
