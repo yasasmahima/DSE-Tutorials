@@ -30,6 +30,13 @@ task azJob(){
     }
 }
 
+task az_zip(type: Zip){
+    from 'src/main/resources/'
+    include 'az.job'
+    archiveName 'Azkaban.zip'
+    destinationDir(file('src/main/resources/'))
+}
+
 
 
 version '1.0-SNAPSHOT'
