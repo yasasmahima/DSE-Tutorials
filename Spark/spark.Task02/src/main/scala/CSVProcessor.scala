@@ -1,4 +1,3 @@
-import com.sun.javaws.exceptions.InvalidArgumentException
 import org.apache.spark.SparkContext
 import org.apache.spark.sql
 import org.apache.spark.sql.{AnalysisException, DataFrame, SparkSession}
@@ -14,16 +13,17 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
   @throws(classOf[IllegalArgumentException])
   def readFile(): Unit = {
     csvFile = spark.read.format("csv").option("header", "true").load(csvPath)
-    println("File Read Successfully")
   }
 
   @throws(classOf[NullPointerException])
   def totalNumberOfAthletes():Long = {
+    checkFile()
     return csvFile.select("ID").distinct.count
   }
 
   @throws(classOf[NullPointerException])
   def MedalWinners(medal:String):Unit = {
+    checkFile()
     csvFile.filter("medal = '"+medal+"'").distinct().show()
   }
 
@@ -39,16 +39,18 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
   }
 
   @throws(classOf[NullPointerException])
-  def findAverge(att:String,gender:String): Unit ={
-   val temp = csvFile.filter("sex = '"+gender+"'").distinct().
-      agg(avg(att)as("Average "+att+" of "+gender))
+  def findAverge(att:String,gender:String): Double ={
+    checkFile()
+    val temp = csvFile.filter("sex = '"+gender+"'").filter(att+"!='NA'").groupBy("ID",att).count()
+      .agg(avg(att)as("Average "+att+" of "+gender))
 
     if(temp.select("Average "+att+" of "+gender).as[String].collect()(0)==null)throw new IllegalArgumentException
-    else temp.show()
+    else return temp.select("Average "+att+" of "+gender).as[Double].collect()(0)
   }
 
   @throws(classOf[NullPointerException])
   def genderRatio(): Unit= {
+    checkFile()
     val male = csvFile.filter("sex = 'M'").groupBy("Year","ID").count().drop("count")
       .groupBy("Year").count().withColumnRenamed("count","count M")
 
@@ -61,12 +63,21 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
 
   @throws(classOf[NullPointerException])
   def medalDistributionByCountry():Unit={
+    checkFile()
     csvFile.filter("medal != 'NA'").groupBy("NOC").count().show()
   }
 
   @throws(classOf[NullPointerException])
-  def mostPopularSport():Unit={
-    csvFile.groupBy("Sport").count().orderBy(desc("count")).limit(1).show()
+  def mostPopularSport():String={
+    checkFile()
+    return csvFile.groupBy("Sport").count().orderBy(desc("count")).limit(1).select("Sport")
+        .as[String].collect()(0)
+  }
+
+  @throws(classOf[NullPointerException])
+  def checkFile(): Boolean = {
+    if(csvFile != null) return true
+    else throw new NullPointerException("File is Null, Please Initialize the file")
   }
 
 }
