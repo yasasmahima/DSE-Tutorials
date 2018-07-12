@@ -1,10 +1,7 @@
-import junit.framework.Test
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{AnalysisException, SparkSession}
-import org.junit
-import org.junit.{After, Before}
-import SparkTask02.spark
+import SparkTask02.{spark,sc}
 import org.scalatest.{BeforeAndAfter, FlatSpec, FunSuite}
 
 class SampleTest extends FunSuite with BeforeAndAfter {
@@ -13,11 +10,11 @@ class SampleTest extends FunSuite with BeforeAndAfter {
   private var rootLogger : Logger = _
   private var testCSVfile: CSVProcessor = _
 
-  before{
-    sc = spark.sparkContext // create spark context
-    rootLogger = Logger.getRootLogger() //get root logger and set level off
-    rootLogger.setLevel(Level.ERROR)
-  }
+//  before{
+//    sc = spark.sparkContext // create spark context
+//    rootLogger = Logger.getRootLogger() //get root logger and set level off
+//    rootLogger.setLevelgu(Level.ERROR)
+//  }
 
   test("Catching exception for null as csv_path"){
     testCSVfile = new CSVProcessor(spark,sc, null)
@@ -29,14 +26,33 @@ class SampleTest extends FunSuite with BeforeAndAfter {
     intercept[AnalysisException] {testCSVfile.readFile()}
   }
 
-
-
-
-
-
-
-  after{
-    if(sc != null)sc.stop()
+  test("Checking if the file avoids duplicate IDs"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    assert(testCSVfile.totalNumberOfAthletes() === 6)
   }
+
+  test("Checking if the popular sport is correct"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    assert(testCSVfile.mostPopularSport().equals("Speed Skating"))
+  }
+
+  test("Checking if average of an attrubute is correct"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    assert(testCSVfile.findAverge("Height","M")===179.33333333333334)
+  }
+
+  test("Checking if average of an invalid attribute"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    intercept[IllegalArgumentException] {testCSVfile.findAverge("Sex","M")}
+  }
+
+//
+//  after{
+//    if(sc != null)sc.stop()
+//  }
 
 }
