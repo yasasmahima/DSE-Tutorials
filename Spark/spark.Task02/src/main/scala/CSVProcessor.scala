@@ -24,7 +24,7 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
   @throws(classOf[NullPointerException])
   def MedalWinners(medal:String):Unit = {
     checkFile()
-    csvFile.filter("medal = '"+medal+"'").distinct().show()
+    csvFile.filter("medal = '"+medal+"'").groupBy("ID").count().show()
   }
 
   @throws(classOf[NullPointerException])
@@ -49,7 +49,7 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
   }
 
   @throws(classOf[NullPointerException])
-  def genderRatio(): Unit= {
+  def genderRatio(): DataFrame= {
     checkFile()
     val male = csvFile.filter("sex = 'M'").groupBy("Year","ID").count().drop("count")
       .groupBy("Year").count().withColumnRenamed("count","count M")
@@ -57,8 +57,8 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
     val female = csvFile.filter("sex = 'F'").groupBy("Year","ID").count().drop("count")
       .groupBy("Year").count().withColumnRenamed("count","count F")
 
-    male.join(female,"Year").withColumn("ratio Male",$"count M"/ ($"count F" + $"count M")).
-      withColumn("ratio Female",$"count F"/ ($"count F" + $"count M")).drop("count M","count F").show()
+    return male.join(female,"Year").withColumn("ratio Male",$"count M"/ ($"count F" + $"count M")).
+      withColumn("ratio Female",$"count F"/ ($"count F" + $"count M")).drop("count M","count F")
   }
 
   @throws(classOf[NullPointerException])

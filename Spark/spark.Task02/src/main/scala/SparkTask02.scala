@@ -21,13 +21,13 @@ object SparkTask02 {
       val csvTasks = new CSVProcessor(spark, sc, "src/test/resources/sample.csv")
       csvTasks.readFile()
 
-      println("Total Number of Athletes " + csvTasks.totalNumberOfAthletes())
+//      println("Total Number of Athletes " + csvTasks.totalNumberOfAthletes())
       csvTasks.highestMedalsCountryYear("Gold")
-      println(csvTasks.findAverge("Height","M"))
-      println(csvTasks.findAverge("Weight","F"))
-      csvTasks.genderRatio()
-      csvTasks.medalDistributionByCountry()
-      println("Most Popular Sport is "+csvTasks.mostPopularSport())
+//      println(csvTasks.findAverge("Height","M"))
+//      println(csvTasks.findAverge("Weight","F"))
+//      csvTasks.genderRatio().show()
+//      csvTasks.medalDistributionByCountry()
+//      println("Most Popular Sport is "+csvTasks.mostPopularSport())
 
     }catch {
       case e:IllegalArgumentException=> rootLogger.error("Null or Invalid argument entered")

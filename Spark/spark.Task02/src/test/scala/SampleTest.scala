@@ -10,6 +10,8 @@ class SampleTest extends FunSuite with BeforeAndAfter {
   private var rootLogger : Logger = _
   private var testCSVfile: CSVProcessor = _
 
+  import spark.sqlContext.implicits._
+
 //  before{
 //    sc = spark.sparkContext // create spark context
 //    rootLogger = Logger.getRootLogger() //get root logger and set level off
@@ -49,6 +51,15 @@ class SampleTest extends FunSuite with BeforeAndAfter {
     testCSVfile.readFile()
     intercept[IllegalArgumentException] {testCSVfile.findAverge("Sex","M")}
   }
+
+  test("Check if gender ratio is correct"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    val temp1 = Seq(("1994", 0.5, 0.5)).toDF("Year","ratio Male","ratio Female").collect()
+    val temp = testCSVfile.genderRatio().filter("Year = 1994").collect()
+    assert(temp === temp1)
+  }
+
 
 //
 //  after{
