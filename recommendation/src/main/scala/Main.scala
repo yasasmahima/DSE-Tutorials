@@ -27,9 +27,8 @@ object Main {
 //    val predictions = contentBased.predict(10)
 //    predictions.foreach(println)
 
-    val ratings = Csv("src/main/resources/ratings.csv",separator = ",",('user, 'movie, 'rating,'timestamp)).read.project()
 
-    println(ratings)
+
 
 
   }

@@ -6,18 +6,13 @@ import scala.collection.immutable.ListMap
 class ContentBasedRecommendation(usr_id:Int , dataPath:String, sc:SparkSession) extends RecommendationEngine(usr_id, dataPath, sc) {
 
   override var data: DataFrame = _
-  var similarities  = Map[Double,(Int,String)]()
-  var arrangedData : DataFrame= _
+
+  private var arrangedData : DataFrame= _
 
   import sc.implicits._
 
-  override def predict(nOfPred : Int): Map[Double,(Int,String)] = {
-    ListMap(similarities.toSeq.sortWith(_._1 > _._1):_*).take(nOfPred)
-  }
 
-  override def run(movieId: Int): Unit = {
-    loadData
-    ArrangeData
+  override def predict(movieId: Int, nOfPred : Int): Map[Double,(Int,String)] = {
 
     val temp1 = arrangedData.filter("movieId == "+movieId).drop("movieId").collect.map(_.toSeq).map(_.toArray)
     val sMovieFea = temp1(0).map(x=> FeatureScaling.extractDouble(x))
@@ -30,24 +25,21 @@ class ContentBasedRecommendation(usr_id:Int , dataPath:String, sc:SparkSession) 
 
     var index = 1
 
+    var similarities  = Map[Double,(Int,String)]()
+
     for(index <- 1 to temp3.size){
 
       similarities += ( CosineSimilarity.cosineSimilarity(oMovieFea(index-1),sMovieFea) -> ( temp3(index-1) , temp4(index-1)))
     }
 
-  }
+    ListMap(similarities.toSeq.sortWith(_._1 > _._1):_*).take(nOfPred)
 
-  override def loadData: Unit = {
-    data  = sc.read
-          .format("csv")
-          .option("header", "true")
-          .option("inferSchema", "true")
-          .load(dataPath+"movies.csv")
   }
 
 
+  override def run(): Unit = {
 
-  override def ArrangeData: Unit = {
+    loadData
 
     val year = data.select("movieId","title").map(t => (t.getInt(0),FeatureScaling.extractYear(t.getString(1))))
 
@@ -73,4 +65,14 @@ class ContentBasedRecommendation(usr_id:Int , dataPath:String, sc:SparkSession) 
       .drop("rowId1","rowId2","genres").join(scaledYears,"movieId").drop("title")
 
   }
+
+  override def loadData: Unit = {
+    data  = sc.read
+          .format("csv")
+          .option("header", "true")
+          .option("inferSchema", "true")
+          .load(dataPath+"movies.csv")
+  }
+
+
 }
