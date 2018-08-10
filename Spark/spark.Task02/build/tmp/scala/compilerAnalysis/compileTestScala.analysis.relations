@@ -1,0 +1,8 @@
+products:
+   src/test/scala/SampleTest.scala -> build/classes/scala/test/SampleTest.class
+binary dependencies:
+   src/test/scala/SampleTest.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   src/test/scala/SampleTest.scala -> SampleTest

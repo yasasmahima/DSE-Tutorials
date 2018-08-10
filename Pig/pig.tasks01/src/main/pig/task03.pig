@@ -29,7 +29,7 @@ world_cup_files = foreach world_cup_files5 generate
 
 
 
---find most popular country
+----find most popular country
 temp_1= GROUP world_cup_files BY Home_Team_Name;
 temp_2 = GROUP world_cup_files BY Away_Team_Name;
 temp_1_count = FOREACH temp_1 GENERATE FLATTEN(group) as (Home_Team_Name), COUNT($1) as home_match_count;
@@ -44,7 +44,7 @@ dump max_count_matches;
 
 
 
---find matches in the current month
+----find matches in the current month
 matches_current_month =  FILTER world_cup_files BY (GetMonth(date_time)==07);
 dump matches_current_month;
 
@@ -56,7 +56,7 @@ dump unique_wc_matches;
 
 
 
---total goals for a country in each year
+----total goals for a country in each year
 temp1 = group world_cup_files by(Year,Home_Team_Name);
 temp2 = foreach temp1 generate flatten(group) AS (Year,Home_Team_Name), SUM(world_cup_files.Home_Team_Goals) as home_goals;
 temp3 = group world_cup_files by(Year,Away_Team_Name);
@@ -70,7 +70,7 @@ dump goals_each_year_country;
 
 
 
---find winning team of each match
+----find winning team of each match
 winner_of_each_match = foreach world_cup_files generate MatchID,Home_Team_Name,Away_Team_Name,Home_Team_Goals,
                 Away_Team_Goals,(Home_Team_Goals > Away_Team_Goals ? Home_Team_Name :
                 (Home_Team_Goals == Away_Team_Goals ? 'Draw' : Away_Team_Name)) as Winner;

@@ -1,0 +1,20 @@
+products:
+   src/main/scala/CollaborativeRecommendation.scala -> build/classes/scala/main/CollaborativeRecommendation.class
+   src/main/scala/ContentBasedRecommendation.scala -> build/classes/scala/main/ContentBasedRecommendation.class
+   src/main/scala/RecommendationEngine.scala -> build/classes/scala/main/RecommendationEngine.class
+binary dependencies:
+   src/main/scala/CollaborativeRecommendation.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+   src/main/scala/CollaborativeRecommendation.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/ContentBasedRecommendation.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+   src/main/scala/ContentBasedRecommendation.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/RecommendationEngine.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+   src/main/scala/RecommendationEngine.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/RecommendationEngine.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+source dependencies:
+   src/main/scala/CollaborativeRecommendation.scala -> src/main/scala/RecommendationEngine.scala
+   src/main/scala/ContentBasedRecommendation.scala -> src/main/scala/RecommendationEngine.scala
+external dependencies:
+class names:
+   src/main/scala/CollaborativeRecommendation.scala -> CollaborativeRecommendation
+   src/main/scala/ContentBasedRecommendation.scala -> ContentBasedRecommendation
+   src/main/scala/RecommendationEngine.scala -> RecommendationEngine

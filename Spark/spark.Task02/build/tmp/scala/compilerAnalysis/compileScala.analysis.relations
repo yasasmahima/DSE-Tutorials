@@ -1,0 +1,23 @@
+products:
+   src/main/scala/CSVProcessor.scala -> build/classes/scala/main/CSVProcessor.class
+   src/main/scala/SparkTask02.scala -> build/classes/scala/main/SparkTask02$.class
+   src/main/scala/SparkTask02.scala -> build/classes/scala/main/SparkTask02.class
+binary dependencies:
+   src/main/scala/CSVProcessor.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.1.0/2909639984ae26ec9e77bbf45b7a4ccd601afebe/spark-catalyst_2.11-2.1.0.jar
+   src/main/scala/CSVProcessor.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/CSVProcessor.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+   src/main/scala/CSVProcessor.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/CSVProcessor.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+   src/main/scala/SparkTask02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar
+   src/main/scala/SparkTask02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.1.0/2909639984ae26ec9e77bbf45b7a4ccd601afebe/spark-catalyst_2.11-2.1.0.jar
+   src/main/scala/SparkTask02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+   src/main/scala/SparkTask02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+   src/main/scala/SparkTask02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+   src/main/scala/SparkTask02.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+source dependencies:
+   src/main/scala/SparkTask02.scala -> src/main/scala/CSVProcessor.scala
+external dependencies:
+class names:
+   src/main/scala/CSVProcessor.scala -> CSVProcessor
+   src/main/scala/SparkTask02.scala -> SparkTask02
+   src/main/scala/SparkTask02.scala -> SparkTask02$

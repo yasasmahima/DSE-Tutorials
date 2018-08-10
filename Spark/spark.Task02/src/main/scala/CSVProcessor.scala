@@ -5,7 +5,7 @@ import org.apache.spark.sql.functions.{asc, avg, desc, max, mean, min, sum}
 
 
 class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
-
+//
   import spark.implicits._
   var csvFile : DataFrame = null
 
@@ -28,12 +28,12 @@ class CSVProcessor(spark:SparkSession, sc:SparkContext, var csvPath: String) {
   }
 
   @throws(classOf[NullPointerException])
-  def highestMedalsCountryYear(medal:String):Unit = {
+  def highestMedalsCountryYear(medal:String):String = {
     val temp = csvFile.filter("medal = '"+medal+"'")
       .groupBy("NOC","Year").count().orderBy(desc("count")).limit(1)
 
     if(temp.select("count").as[String].collect().isEmpty)throw new IllegalArgumentException
-    else temp.show()
+    else temp.select("NOC").as[String].collect()(0)
 //    val z = temp.select("count").as[String].collect()(0)
 
   }

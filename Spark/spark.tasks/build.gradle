@@ -10,25 +10,40 @@ buildscript {
 }
 
 
+/*
 plugins {
     id 'java'
 }
+*/
 
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+//apply plugin: 'java'
 apply plugin: 'scala'
 apply plugin: 'idea'
 
+/*
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test/scala']
+        }
+    }
+}*/
 
 task fatJar(type: Jar) {
-    baseName = project.name + '-all'
+    baseName = project.name + 'fatJar-all'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
-    manifest {
+   /* manifest {
         attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
         attributes 'Main-Class': 'com.organization.project.package.mainClassName'
-    }
+    }*/
     zip64 true
 }
 

@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2992abd7-2fda-4592-b5a1-a236052438a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala/Task_New/Task02Result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scala/Task_New/src/main/java/Task01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scala/Task_New/src/main/java/Task01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spark/spark.tasks/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/Full Names.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/Full Names.txt/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/Full Names.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/Full Names.txt/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00000-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00001-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00002-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00003-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00004-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00005-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00006-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00007-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00008-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00009-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00010-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00011-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00012-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00013-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00014-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00015-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00016-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00017-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00018-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00019-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00020-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00021-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00022-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00023-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00024-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00025-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00026-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00027-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00028-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00029-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00030-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00031-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00032-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00033-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00034-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00035-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00036-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00037-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00038-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00039-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00040-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00041-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00042-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00043-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00044-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00045-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00046-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00047-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00048-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00049-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00050-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00051-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00052-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00053-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00054-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00055-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00056-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00057-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00058-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00059-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00060-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00061-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00062-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00063-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00064-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00065-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00066-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00067-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00068-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00069-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00070-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00071-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00072-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00073-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00074-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00075-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00076-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00077-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00078-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00079-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00080-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00081-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00082-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00083-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00084-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00085-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00086-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00087-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00088-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00089-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00090-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00091-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00092-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00093-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00094-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00095-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00096-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00097-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00098-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00099-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00100-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00101-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00102-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00103-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00104-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00105-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00106-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00107-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00108-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00109-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00110-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00111-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00112-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00113-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00114-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00115-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00116-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00117-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00118-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00119-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00120-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00121-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00122-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00123-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00124-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00125-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00126-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00127-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00128-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00129-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00130-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00131-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00132-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00133-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00134-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00135-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00136-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00137-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00138-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00139-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00140-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00141-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00142-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00143-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00144-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00145-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00146-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00147-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00148-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00149-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00150-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00151-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00152-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00153-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00154-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00155-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00156-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00157-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00158-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00159-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00160-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00161-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00162-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00163-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00164-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00165-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00166-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00167-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00168-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00169-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00170-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00171-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00172-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00173-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00174-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00175-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00176-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00177-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00178-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00179-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00180-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00181-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00182-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00183-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00184-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00185-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00186-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00187-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00188-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00189-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00190-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00191-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00192-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00193-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00194-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00195-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00196-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00197-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00198-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/.part-00199-4c996bce-314b-442a-a835-d8f05b64a28c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00000-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00001-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00002-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00003-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00004-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00005-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00006-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00007-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00008-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00009-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00010-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00011-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00012-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00013-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00014-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00015-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00016-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00017-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00018-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00019-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00020-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00021-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00022-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00023-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00024-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00025-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00026-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00027-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00028-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00029-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00030-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00031-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00032-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00033-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00034-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00035-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00036-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00037-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00038-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00039-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00040-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00041-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00042-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00043-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00044-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00045-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00046-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00047-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00048-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00049-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00050-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00051-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00052-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00053-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00054-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00055-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00056-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00057-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00058-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00059-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00060-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00061-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00062-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00063-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00064-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00065-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00066-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00067-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00068-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00069-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00070-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00071-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00072-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00073-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00074-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00075-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00076-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00077-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00078-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00079-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00080-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00081-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00082-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00083-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00084-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00085-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00086-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00087-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00088-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00089-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00090-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00091-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00092-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00093-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00094-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00095-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00096-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00097-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00098-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00099-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00100-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00101-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00102-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00103-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00104-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00105-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00106-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00107-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00108-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00109-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00110-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00111-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00112-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00113-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00114-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00115-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00116-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00117-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00118-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00119-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00120-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00121-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00122-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00123-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00124-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00125-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00126-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00127-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00128-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00129-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00130-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00131-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00132-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00133-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00134-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00135-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00136-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00137-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00138-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00139-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00140-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00141-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00142-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00143-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00144-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00145-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00146-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00147-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00148-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00149-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00150-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00151-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00152-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00153-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00154-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00155-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00156-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00157-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00158-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00159-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00160-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00161-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00162-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00163-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00164-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00165-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00166-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00167-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00168-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00169-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00170-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00171-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00172-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00173-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00174-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00175-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00176-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00177-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00178-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00179-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00180-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00181-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00182-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00183-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00184-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00185-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00186-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00187-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00188-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00189-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00190-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00191-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00192-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00193-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00194-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00195-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00196-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00197-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00198-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/resources/FullNames.txt/part-00199-4c996bce-314b-442a-a835-d8f05b64a28c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/scala/Task01.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/scala/Task02.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spark/spark.tasks/src/main/scala/Task02.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="93748683">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="1169" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1169" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Task01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Task01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task03.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Task03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Java Task 01.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java Task 01.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Task02.java" />
+        <option value="$PROJECT_DIR$/src/Task03.java" />
+        <option value="$PROJECT_DIR$/src/Task01.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="363" />
+    <option name="y" value="60" />
+    <option name="width" value="850" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="140.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="21.0" />
+        <observation name="false" value="119.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="139.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="4-7-2018">
+        <observation name="0" value="51.0" />
+        <observation name="UNDEFINED" value="89.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="25.0" />
+        <observation name="true" value="103.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="87.0" />
+        <observation name="true" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="87.0" />
+        <observation name="true" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="87.0" />
+        <observation name="true" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="66.0" />
+        <observation name="true" value="62.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="131.0" />
+        <observation name="true" value="9.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="4-7-2018">
+        <observation name="NORMAL" value="128.0" />
+        <observation name="UNDEFINED" value="12.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="expected" value="34.0" />
+        <observation name="maybeExpected" value="8.0" />
+        <observation name="normal" value="83.0" />
+        <observation name="ofDefaultType" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="classNameOrGlobalStatic" value="45.0" />
+        <observation name="expectedTypeVariable" value="13.0" />
+        <observation name="normal" value="39.0" />
+        <observation name="probableKeyword" value="2.0" />
+        <observation name="suitableClass" value="3.0" />
+        <observation name="variable" value="26.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="unknown" value="128.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="false" value="48.0" />
+        <observation name="null" value="80.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="applicableByKind" value="2.0" />
+        <observation name="unknown" value="126.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="48.0" />
+        <observation name="normal" value="92.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="4-7-2018">
+        <observation name="cancelled" value="408.0" />
+        <observation name="explicitSelect" value="83.0" />
+        <observation name="typedSelect" value="57.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="4-7-2018">
+        <observation name="BASIC" value="166.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="4-7-2018">
+        <observation name="count" value="548.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.107527" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.061408" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="116.0" />
+        <observation name="average" value="-2.319149" />
+        <observation name="count" value="47.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-6.0" />
+        <observation name="variance" value="2.447876" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="-0.015686" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.014838" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.046595" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="3.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.126619" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="-1104.566308" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="12632.485691" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="-0.014337" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.014661" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="127.254902" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13432.49111" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="2.745098" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="8.92903" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.643137" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.756793" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.627451" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.730908" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="6.21147" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="19.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="14.600908" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="-0.031373" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.046844" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="-15.670588" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="14807.943664" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="255.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="103.0" />
+        <observation name="average" value="-3.0" />
+        <observation name="count" value="73.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="-0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="1648.594982" />
+        <observation name="count" value="279.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="9461149.666526" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="4-7-2018">
+        <observation name="0" value="78.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="4-7-2018">
+        <observation name="total" value="73.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="4-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="1" value="9.0" />
+        <observation name="10" value="1.0" />
+        <observation name="2" value="27.0" />
+        <observation name="3" value="23.0" />
+        <observation name="4" value="16.0" />
+        <observation name="5" value="3.0" />
+        <observation name="7" value="2.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="246.206731" />
+        <observation name="count" value="208.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Task 1.2.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task 1.2.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task 1.2.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task 1.2.3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530710583109" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Task03">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Task 1.2.3" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task01" />
+      <module name="Task 1.2.3" />
+    </configuration>
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task02" />
+      <module name="Task 1.2.3" />
+    </configuration>
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task03" />
+      <module name="Task 1.2.3" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Task01" />
+      <item itemvalue="Application.Task02" />
+      <item itemvalue="Application.Task03" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task03" />
+        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.Task01" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2992abd7-2fda-4592-b5a1-a236052438a4" name="Default Changelist" comment="" />
+      <created>1530701546989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530701546989</updated>
+      <workItem from="1530701553346" duration="6014000" />
+      <workItem from="1530769121744" duration="634000" />
+      <workItem from="1530779399255" duration="30000" />
+      <workItem from="1530784827595" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6710000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8291925" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13306773" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32919255" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Task01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java Task 01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java Task 01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java Task 01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -32,7 +32,14 @@ object Task02 {
 
     fullNamesDF.show()
 
-    fullNamesDF.write.mode("overwrite").format("text").save("src/main/resources/FullNames.txt")
+   // fullNamesDF.collect()
+    //fullNamesDF.write.mode("overwrite").save("src/main/resources/FullNames.txt")
+    //fullNamesDF.coalesce(1).write.text("src/main/resources/FullNames.txt")
+
+fullNamesDF.repartition(1).write.mode("overwrite").text("src/main/resources/FullNames/")
+
+//    fullNamesDF.write.format("com.databricks.spark.csv").option("header", "false").save("src/main/resources/FullNames")
+
 
   }
 }

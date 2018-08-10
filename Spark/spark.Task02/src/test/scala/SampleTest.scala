@@ -60,6 +60,12 @@ class SampleTest extends FunSuite with BeforeAndAfter {
     assert(temp === temp1)
   }
 
+  test("COuntry with highest medals"){
+    testCSVfile = new CSVProcessor(spark,sc, "src/test/resources/sample.csv")
+    testCSVfile.readFile()
+    assert(testCSVfile.highestMedalsCountryYear("Gold").equals("DEN"))
+  }
+
 
 //
 //  after{

@@ -1,0 +1,245 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+9 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main
+6 -> -g
+7 -> -proc:none
+8 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+7 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$1.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$2.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$3.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$typecreator1$1.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$typecreator2$1.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$.class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02.class
+binary dependencies:
+7 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.1.0/2909639984ae26ec9e77bbf45b7a4ccd601afebe/spark-catalyst_2.11-2.1.0.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.8/b74530deeba742ab4f3134de0c2da0edc49ca361/scala-reflect-2.11.8.jar
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+7 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$$anonfun$1
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$$anonfun$2
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$$anonfun$3
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$$typecreator1$1
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02$$typecreator2$1
+used names:
+125 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> $m
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> $m$untyped
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> $typecreator1
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> $typecreator2
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> $u
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> <init>
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> <repeated>
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ?0
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> A
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Any
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> AnyRef
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Array
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ArrayOps
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Builder
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Class
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ClassLoader
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ClassSymbol
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ClassTag
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Column
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> DataFrame
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> DataFrameWriter
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Dataset
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Function1
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Int
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Internal
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> JavaUniverse
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Level
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> List
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Logger
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Mirror
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ModuleSymbol
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Nothing
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> OFF
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Object
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Predef
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Product
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> RDD
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ReificationSupportApi
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Row
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Singleton
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> SparkContext
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> SparkSession
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> String
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Symbol
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> T
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> T0
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> T1
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> T2
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Task02
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> ThisType
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> TraversableOnce
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Tuple2
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Type
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> TypeCreator
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> TypeRef
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> TypeSymbol
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> TypeTag
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> U
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Unit
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> Universe
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> _$2
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> _$7
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> apache
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> appName
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> apply
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> as
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> asInstanceOf
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> asModule
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> asType
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> builder
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> collection
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> concat
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> createDataFrame
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> firstNames
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> firstNamesDF
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> firstNamesMap
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> flatMap
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> fullNamesDF
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> functions
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> getClass
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> getClassLoader
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> getOrCreate
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> getRootLogger
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> immutable
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> internal
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> join
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> lastNames
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> lastNamesDF
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> lastNamesMap
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> lit
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> log4j
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> map
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> master
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> materializeClassTag
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> materializeTypeTag
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> mode
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> moduleClass
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> name
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> org
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> package
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> refArrayOps
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> reflect
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> reificationSupport
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> repartition
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> rootLogger
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> runtime
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> runtimeMirror
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> sc
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> scala
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> select
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> setLevel
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> show
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> spark
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> sparkContext
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> split
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> sql
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> staticClass
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> staticPackage
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> text
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> textFile
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> toDF
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> toTypeConstructor
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> universe
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> write
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> x
+product stamps:
+7 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$1.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$2.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$anonfun$3.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$typecreator1$1.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$$typecreator2$1.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02$.class -> lastModified(1531224988000)
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/build/classes/scala/main/Task02.class -> lastModified(1531224988000)
+source stamps:
+1 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> hash(0cea625e62d799886ae89c1f9a02b62e0576423e)
+binary stamps:
+7 items
+/home/aathifs/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar -> lastModified(1531118057000)
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.1.0/2909639984ae26ec9e77bbf45b7a4ccd601afebe/spark-catalyst_2.11-2.1.0.jar -> lastModified(1531121230000)
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> lastModified(1531121264000)
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar -> lastModified(1531121207000)
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> lastModified(1531121440000)
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.8/b74530deeba742ab4f3134de0c2da0edc49ca361/scala-reflect-2.11.8.jar -> lastModified(1531121422000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1530688513000)
+class names:
+7 items
+/home/aathifs/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar -> org.apache.log4j.Logger
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.1.0/2909639984ae26ec9e77bbf45b7a4ccd601afebe/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.Row
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.1.0/724bfcfc939a1c8a4d6d3b95497c0032d9102ec6/spark-core_2.11-2.1.0.jar -> org.apache.spark.rdd.RDD
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql_2.11/2.1.0/4306080bcebabbd2d33b67bb5323961aa90f0424/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.SparkSession$
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar -> scala.reflect.ClassTag$
+/home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.8/b74530deeba742ab4f3134de0c2da0edc49ca361/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGWpsnQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwrtFY+3QABm5vdGlmeXNxAH4ADH9KMM10AAR3YWl0c3EAfgAMSDCa2XQADSRhc0luc3RhbmNlT2ZzcQB+AAwrvKQkdAAGZXF1YWxzc3EAfgAMsOxChXQADGFzSW5zdGFuY2VPZnNxAH4ADNE10CV0AAxzeW5jaHJvbml6ZWRzcQB+AAyHLJS4dAANJGlzSW5zdGFuY2VPZnNxAH4ADBi+5NV0AAZUYXNrMDJzcQB+AAxOu649dAAEbWFpbnNxAH4ADP0wS8l0AAlub3RpZnlBbGxzcQB+AAw/Y45udAAMaXNJbnN0YW5jZU9mc3EAfgAM42wtl3QAAj09c3EAfgAM2Q/f+nQABWNsb25lc3EAfgAMk33Cz3QACHRvU3RyaW5nc3EAfgAMhNZZsnQAAiE9c3EAfgAM2kc5hXQACGdldENsYXNzc3EAfgAMv+N/jXQAAm5lc3EAfgAM5SLnC3QAAmVxc3EAfgAMqsPZtnQAAiMjc3EAfgAM1Y43/HQACGZpbmFsaXplc3EAfgAMbEoDVHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAddXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AGxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AFxzcQB+AGt0AAVBcnJheXEAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGt0AAZTdHJpbmdzcQB+AG9zcQB+AHJ1cQB+AHUAAAADc3EAfgB3dAAEamF2YXNxAH4Ad3QABGxhbmdxAH4AfHNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+AJAAAAACc3EAfgBrdAAGT2JqZWN0cQB+AJRzcQB+AGt0AANBbnlxAH4AcXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFkhB8G43VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFcvaG9tZS9hYXRoaWZzL0RvY3VtZW50cy9HaXRodWIvRFNFLVR1dG9yaWFscy9TcGFyay9zcGFyay50YXNrcy9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQM6mJeYteZiGronB+aArYuBXZCPg==
+external apis:
+0 items
+source infos:
+1 items
+/home/aathifs/Documents/Github/DSE-Tutorials/Spark/spark.tasks/src/main/scala/Task02.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZIQd9851cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9ob21lL2FhdGhpZnMvRG9jdW1lbnRzL0dpdGh1Yi9EU0UtVHV0b3JpYWxzL1NwYXJrL3NwYXJrLnRhc2tzL2J1aWxkL2NsYXNzZXMvc2NhbGEvbWFpbnQAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZIQfBuN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9ob21lL2FhdGhpZnMvRG9jdW1lbnRzL0dpdGh1Yi9EU0UtVHV0b3JpYWxzL1NwYXJrL3NwYXJrLnRhc2tzL2J1aWxkL2NsYXNzZXMvc2NhbGEvbWFpbnQAAS8=

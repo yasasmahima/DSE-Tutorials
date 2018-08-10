@@ -1,2 +1,0 @@
-Number of unique characters in the file : 6
-List(j, ', x, V, M, w)
