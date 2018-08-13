@@ -21,14 +21,15 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
-//    val contentBased = new ContentBasedRecommendation(4, "src/main/resources/",sc)
-//
-//    contentBased.run(163056)
-//    val predictions = contentBased.predict(10)
-//    predictions.foreach(println)
+    val contentBased = new ContentBasedRecommendation(4, "src/main/resources/",sc)
+    contentBased.predict(1405)
+    contentBased.show(5)
 
+    println("-" * 50)
 
-
+    val collborative = new CollaborativeRecommendation(4, "src/main/resources/",sc)
+    collborative.predict(1405)
+    collborative.show(5)
 
 
   }

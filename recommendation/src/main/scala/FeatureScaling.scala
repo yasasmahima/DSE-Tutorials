@@ -1,6 +1,7 @@
 import org.apache.spark.sql.functions.{min, _}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.Row
+import scala.collection.mutable.ArrayBuffer
 
 
 object FeatureScaling {
@@ -50,8 +51,22 @@ object FeatureScaling {
 
   def extractDouble(x: Any): Double = x match {
     case n: java.lang.Number => n.doubleValue()
-    case _ => {println("Invalid Arguement")
+    case _ => {println("Invalid Arguement - "+ x)
       -0.0}
+  }
+
+  def toArray(x:Double):Array[Double] = {
+    var temp = new Array[Double](1)
+    temp(0) = x
+    temp
+  }
+
+  def custom1(list: List[(Double,Double)]) : Array[ArrayBuffer[Double]] = {
+    val arr = new Array[ArrayBuffer[Double]](2)
+    arr(0) = new ArrayBuffer[Double]()
+    arr(1) = new ArrayBuffer[Double]()
+    list.foreach(d1 => (arr(0).append(d1._1)  , arr(1).append(d1._2)))
+    arr
   }
 
 }
