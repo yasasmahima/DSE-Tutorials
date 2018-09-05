@@ -1,0 +1,1 @@
+src/main/resources/file1/file1,src/main/resources/file2/file2
