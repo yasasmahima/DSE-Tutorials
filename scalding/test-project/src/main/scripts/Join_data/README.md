@@ -28,8 +28,4 @@ pigScriptPath - Path for the pig script
             joinField2=id \
             delimeter="'\\\\t'" \
             outputPath=./result.csv 
-<<<<<<< HEAD
             pigScriptPath=./Join_data/Join_by_field.pig
-=======
-            pigScriptPath=./Join_data/Join_by_field.pig
->>>>>>> 66fc77b2cc830d405ffa840c9cf38c3b004ef1a9

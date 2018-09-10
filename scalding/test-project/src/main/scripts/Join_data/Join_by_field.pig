@@ -20,8 +20,4 @@ joined_file = join_files(inputfile1, inputfile2,'$joinField1','$joinField2');
 
 
 --store to outputpath
-<<<<<<< HEAD
 STORE joined_file INTO '$outputPath' USING PigStorage('$delimeter');
-=======
-STORE joined_file INTO '$outputPath' USING PigStorage('$delimeter');
->>>>>>> 66fc77b2cc830d405ffa840c9cf38c3b004ef1a9

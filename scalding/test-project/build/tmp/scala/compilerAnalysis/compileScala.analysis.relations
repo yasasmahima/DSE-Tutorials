@@ -1,14 +1,4 @@
 products:
-   src/main/scala/com/test/scala/WordCountJob.scala -> build/classes/scala/main/com/test/scala/WordCountJob$$anonfun$1.class
-   src/main/scala/com/test/scala/WordCountJob.scala -> build/classes/scala/main/com/test/scala/WordCountJob$$anonfun$2.class
-   src/main/scala/com/test/scala/WordCountJob.scala -> build/classes/scala/main/com/test/scala/WordCountJob.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$1.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$2.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$3.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$4.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$5.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134$$anonfun$makeStringValues$1.class
-   src/main/scala/scalding/Algo133_134.scala -> build/classes/scala/main/scalding/Algo133_134.class
    src/main/scala/scalding/MergeRecDataJob.scala -> build/classes/scala/main/scalding/MergeRecDataJob$$anonfun$1.class
    src/main/scala/scalding/MergeRecDataJob.scala -> build/classes/scala/main/scalding/MergeRecDataJob$$anonfun$2.class
    src/main/scala/scalding/MergeRecDataJob.scala -> build/classes/scala/main/scalding/MergeRecDataJob$$anonfun$3.class
@@ -18,17 +8,6 @@ products:
    src/main/scala/scalding/MergeRecDataJob.scala -> build/classes/scala/main/scalding/MergeRecDataJob$$anonfun$scalding$MergeRecDataJob$$makeStringValues$1.class
    src/main/scala/scalding/MergeRecDataJob.scala -> build/classes/scala/main/scalding/MergeRecDataJob.class
 binary dependencies:
-   src/main/scala/com/test/scala/WordCountJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/cascading/cascading-core/2.6.1/24db1e24fea43f38d0d71496deaac2b40c9df2e9/cascading-core-2.6.1.jar
-   src/main/scala/com/test/scala/WordCountJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-args_2.11/0.13.1/65c50fc19d333e3c2336d9eae6e40ada106ce207/scalding-args_2.11-0.13.1.jar
-   src/main/scala/com/test/scala/WordCountJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/ff33329e32a6a429398fd7d5f8b454d322809245/scalding-core_2.11-0.13.1.jar
-   src/main/scala/com/test/scala/WordCountJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/a5544bb030c5e6c3d81ad116b7dc5024f047df26/scala-library-2.11.5.jar
-   src/main/scala/com/test/scala/WordCountJob.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
-   src/main/scala/scalding/Algo133_134.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/cascading/cascading-core/2.6.1/24db1e24fea43f38d0d71496deaac2b40c9df2e9/cascading-core-2.6.1.jar
-   src/main/scala/scalding/Algo133_134.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-args_2.11/0.13.1/65c50fc19d333e3c2336d9eae6e40ada106ce207/scalding-args_2.11-0.13.1.jar
-   src/main/scala/scalding/Algo133_134.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/ff33329e32a6a429398fd7d5f8b454d322809245/scalding-core_2.11-0.13.1.jar
-   src/main/scala/scalding/Algo133_134.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/2.7.3/9ffd994953fc4397830a1241a15c9121aebd9574/hadoop-common-2.7.3.jar
-   src/main/scala/scalding/Algo133_134.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/a5544bb030c5e6c3d81ad116b7dc5024f047df26/scala-library-2.11.5.jar
-   src/main/scala/scalding/Algo133_134.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
    src/main/scala/scalding/MergeRecDataJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/cascading/cascading-core/2.6.1/24db1e24fea43f38d0d71496deaac2b40c9df2e9/cascading-core-2.6.1.jar
    src/main/scala/scalding/MergeRecDataJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-args_2.11/0.13.1/65c50fc19d333e3c2336d9eae6e40ada106ce207/scalding-args_2.11-0.13.1.jar
    src/main/scala/scalding/MergeRecDataJob.scala -> /home/aathifs/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/ff33329e32a6a429398fd7d5f8b454d322809245/scalding-core_2.11-0.13.1.jar
@@ -37,16 +16,6 @@ binary dependencies:
 source dependencies:
 external dependencies:
 class names:
-   src/main/scala/com/test/scala/WordCountJob.scala -> com.test.scala.WordCountJob
-   src/main/scala/com/test/scala/WordCountJob.scala -> com.test.scala.WordCountJob$$anonfun$1
-   src/main/scala/com/test/scala/WordCountJob.scala -> com.test.scala.WordCountJob$$anonfun$2
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$1
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$2
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$3
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$4
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$5
-   src/main/scala/scalding/Algo133_134.scala -> scalding.Algo133_134$$anonfun$makeStringValues$1
    src/main/scala/scalding/MergeRecDataJob.scala -> scalding.MergeRecDataJob
    src/main/scala/scalding/MergeRecDataJob.scala -> scalding.MergeRecDataJob$$anonfun$1
    src/main/scala/scalding/MergeRecDataJob.scala -> scalding.MergeRecDataJob$$anonfun$2

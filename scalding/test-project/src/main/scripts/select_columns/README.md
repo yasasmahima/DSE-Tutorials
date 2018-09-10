@@ -25,8 +25,4 @@ pigScriptPath - Path for the pig script
             delimeter="," \
             columns='movieId,title' \
             outputPath=./result.csv \
-<<<<<<< HEAD
             pigScriptPath=./select_columns/column_generator.pig
-=======
-            pigScriptPath=./select_columns/column_generator.pig
->>>>>>> 66fc77b2cc830d405ffa840c9cf38c3b004ef1a9

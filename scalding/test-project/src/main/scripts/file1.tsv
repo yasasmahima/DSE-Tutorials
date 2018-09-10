@@ -1,0 +1,8 @@
+id	values
+1	{ "name":"John", "age":30, "city":"New York" }
+2	{"middlename":null }
+3	{"id": "1001", "type": "Regular" }
+4	{"age":30 }
+5	{"id": "5004", "type": "Maple" }
+6	{"id": "5002", "type": "Glazed" }
+7	{"id": "1001", "type": "Regular" }

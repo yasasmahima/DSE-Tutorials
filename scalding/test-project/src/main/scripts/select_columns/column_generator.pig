@@ -22,7 +22,4 @@ selected_columns= select_cols(inputfile,'$columns');
 STORE selected_columns INTO '$outputPath' USING PigStorage('$delimeter');
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 66fc77b2cc830d405ffa840c9cf38c3b004ef1a9
