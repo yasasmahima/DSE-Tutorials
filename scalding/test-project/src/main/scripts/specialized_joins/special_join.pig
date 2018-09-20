@@ -5,9 +5,9 @@ DEFINE get_input_data(path,schema) returns inputfile{
 };
 
 --macro to join files in given field
-DEFINE join_files(relation1,relation2,joinField1,joinField2) returns joined{
+DEFINE join_files(relation1,relation2,joinField1,joinField2,outerJoinMethod) returns joined{
 
-    $joined = JOIN $relation1 BY (chararray)$joinField1 , $relation2 BY (chararray)$joinField2 USING '$join_method';
+    $joined = JOIN $relation1 BY (chararray)$joinField1 $outerJoinMethod, $relation2 BY (chararray)$joinField2 USING '$join_method';
 };
 
 --get input files
@@ -16,7 +16,7 @@ inputfile2 = get_input_data('$inputPath2','$schema2');
 
 
 --join files
-joined_file = join_files(inputfile1, inputfile2,'$joinField1','$joinField2');
+joined_file = join_files(inputfile1, inputfile2,'$joinField1','$joinField2','$outerJoinMethod');
 
 
 --store to outputpath
