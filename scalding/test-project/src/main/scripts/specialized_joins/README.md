@@ -84,3 +84,26 @@ Note - skewed join works for all full,right,left and inner joins
 Note - merge join works only for inner joins
        Relations should be pre sorted in the ascending order by the joinField given
  ~~~
+ 
+ 
+ 
+#######################################################################################
+ 
+Merge Sparse Join 
+ 
+bash script - merge_sparse.sh\
+Pig Script - merge_sparse.pig
+
+*     bash ./special_join.sh 
+            inputPath1=../../resources/specialized_joins_pig/sorted_apache_nobots_tsv.txt 
+            inputPath2=../../resources/specialized_joins_pig/sorted_nobots_ip_country_tsv.txt 
+            delimeter="'\\\\t'" 
+            outputPath=./merge_result.tsv
+            additionalJarPath='../../hadoop_jar.jar'
+            pigScriptPath=./merge_sparse.pig
+
+~~~
+Note - Preconditions same as merge join
+       Will not work with PigStorage, only loader pig has provided is org.apache.pig.piggybank.storage.IndexedStorage
+~~~
+ 
