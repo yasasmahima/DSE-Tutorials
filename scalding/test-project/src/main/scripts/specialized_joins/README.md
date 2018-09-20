@@ -1,7 +1,7 @@
 #JOIN DATA ON GIVEN COLUMN
 
-bash script - Join_by_field.sh\
-Pig Script - Join_by_field.pig
+bash script - special_join.sh\
+Pig Script - special_join.pig
 
 
 ##params
@@ -12,20 +12,52 @@ schema1     - schema for file 1
 schema2     - schema for file 2
 joinField1  - column to be joined in file 1
 joinField2  - column to be joined in file 2
+join_method - specialized join method in pig
 delimeter   - common seperator for both files
 outputPath  - path for Output file
 pigScriptPath - Path for the pig script
 ````
 
-##sample run
+##sample run - replicated join
 
-*     bash ./Join_data/Join_by_field.sh \
-            inputPath1=./file1.tsv \
-            inputPath2=./file2.tsv \
-            schema1=id:int,values:CHARARRAY \
-            schema2=id:chararray,values:CHARARRAY,title:chararray \
-            joinField1=id \
-            joinField2=id \
+*     bash ./special_join.sh \
+            inputPath1=../../resources/specialized_joins_pig/apache_nobots_tsv.txt \
+            inputPath2=../../resources/specialized_joins_pig/nobots_ip_country_tsv.txt \
+            schema1=ip:chararray,timestamp:long,page:chararray,http_status:int,payload_size:int,useragent:chararray \
+            schema2=ip:chararray,country:chararray \
+            joinField1=ip \
+            joinField2=ip \
             delimeter="'\\\\t'" \
-            outputPath=./result.csv 
-            pigScriptPath=./Join_data/Join_by_field.pig
+            outputPath=./replicated_result.tsv
+            join_method=replicated 
+            pigScriptPath=./special_join.pig
+            
+            
+##sample run - skewed join
+
+*     bash ./special_join.sh \
+            inputPath1=../../resources/specialized_joins_pig/skewed_apache_nobots_tsv.txt \
+            inputPath2=../../resources/specialized_joins_pig/nobots_ip_country_tsv.txt \
+            schema1=ip:chararray,timestamp:long,page:chararray,http_status:int,payload_size:int,useragent:chararray \
+            schema2=ip:chararray,country:chararray \
+            joinField1=ip \
+            joinField2=ip \
+            delimeter="'\\\\t'" \
+            outputPath=./skewed_result.tsv
+            join_method=skewed 
+            pigScriptPath=./special_join.pig
+            
+            
+##sample run - merge join
+
+*     bash ./special_join.sh \
+            inputPath1=../../resources/specialized_joins_pig/sorted_apache_nobots_tsv.txt \
+            inputPath2=../../resources/specialized_joins_pig/sorted_nobots_ip_country_tsv.txt \
+            schema1=ip:chararray,timestamp:long,page:chararray,http_status:int,payload_size:int,useragent:chararray \
+            schema2=ip:chararray,country:chararray \
+            joinField1=ip \
+            joinField2=ip \
+            delimeter="'\\\\t'" \
+            outputPath=./merge_result.tsv
+            join_method=merge 
+            pigScriptPath=./special_join.pig
