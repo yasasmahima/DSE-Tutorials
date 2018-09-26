@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f934d90a-ebe3-44aa-abaa-0bbc95797db6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Pig/scripts/Join_data/Join_by_field.pig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pig/scripts/Join_data/Join_by_field.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pig/scripts/Join_data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pig/scripts/Join_data/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pig/scripts/select_columns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pig/scripts/select_columns/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pig/scripts/select_columns/column_generator.pig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pig/scripts/select_columns/column_generator.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ignore.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../ignore.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/file1/file1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/file2/file2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/propfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/words" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scripts/extra" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scripts/extra" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -148,66 +131,130 @@
     <session id="-631314734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="extra" value="1" />
-          <entry key="gradle" value="1" />
-          <entry key="md" value="2" />
-          <entry key="pig" value="3" />
+          <entry key="crc" value="1" />
+          <entry key="extra" value="8" />
+          <entry key="gradle" value="2" />
+          <entry key="log" value="5" />
+          <entry key="md" value="7" />
+          <entry key="part-m-00000" value="28" />
+          <entry key="part-r-00000" value="10" />
+          <entry key="pig" value="13" />
           <entry key="scala" value="2" />
-          <entry key="sh" value="2" />
+          <entry key="sh" value="8" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="2" />
-          <entry key="Groovy" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Pig file" value="3" />
+          <entry key="Bash" value="8" />
+          <entry key="CSV" value="1" />
+          <entry key="Groovy" value="2" />
+          <entry key="Log" value="5" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Pig file" value="13" />
           <entry key="Scala" value="2" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="extra" value="428" />
+          <entry key="md" value="1270" />
+          <entry key="pig" value="180" />
+          <entry key="sh" value="279" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="279" />
+          <entry key="Markdown" value="1270" />
+          <entry key="PLAIN_TEXT" value="428" />
+          <entry key="Pig file" value="180" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.pig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="904">
+                <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.pig">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.pig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.pig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/extra">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="25" selection-start-column="433" selection-end-line="25" selection-end-column="443" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/skewed_result.tsv/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5259" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -642,6 +689,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/scalding/Algo133_134.scala" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/specialized_joins_pig/nobots_ip_country_tsv2.txt" />
+        <option value="$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.sh" />
+        <option value="$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.pig" />
+        <option value="$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.pig" />
+        <option value="$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.sh" />
+        <option value="$PROJECT_DIR$/src/main/scripts/specialized_joins/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scripts/extra" />
       </list>
     </option>
   </component>
@@ -651,11 +705,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1778" />
-    <option name="y" value="160" />
-    <option name="width" value="1181" />
-    <option name="height" value="720" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1787" />
+    <option name="y" value="149" />
+    <option name="width" value="1179" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -686,32 +746,72 @@
               <item name="test-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="specialized_joins_pig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="specialized_joins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="specialized_joins" type="462c0819:PsiDirectoryNode" />
+              <item name="skewed_result.tsv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536555258121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537509752099" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scripts/specialized_joins" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.scala" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scripts/specialized_joins" />
+      <recent name="$PROJECT_DIR$/src/main/scripts/specialized_joins/temp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -807,18 +907,24 @@
       <workItem from="1535971095388" duration="23488000" />
       <workItem from="1536031620076" duration="22423000" />
       <workItem from="1536119647903" duration="9788000" />
-      <workItem from="1536553187206" duration="1037000" />
+      <workItem from="1536553187206" duration="2332000" />
+      <workItem from="1536903762225" duration="126000" />
+      <workItem from="1536903938256" duration="844000" />
+      <workItem from="1536907389673" duration="602000" />
+      <workItem from="1536914926615" duration="49000" />
+      <workItem from="1537416344586" duration="22024000" />
+      <workItem from="1537503324572" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73570000" />
+    <option name="totallyTimeSpent" value="102485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1430" y="-11" width="1857" height="1092" extended-state="7" />
+    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20729685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22001106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -834,18 +940,18 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.33924845" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32985386" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27719665" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35041842" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32985386" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32946378" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.2498618" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.32946378" />
       <window_info anchor="right" id="SciView" order="7" weight="0.32946378" />
       <window_info anchor="right" id="Database" order="8" />
@@ -859,105 +965,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/words" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/Tool.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/WordCountJob.scala" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/3e5b3772329aacb2036ebf9941ce6ffb843baf9f/scala-library-2.11.5-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/3e5b3772329aacb2036ebf9941ce6ffb843baf9f/scala-library-2.11.5-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/Job.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/typed/TypedSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/TypedDelimited.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/file2/file2" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/file1/file1" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/Algo133_5.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/Algo133_3.scala" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cascading/cascading-core/2.6.1/10d88657b4966da05127bdf404ccfb82cec9239c/cascading-core-2.6.1-sources.jar!/cascading/tap/SinkMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/FileSource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="363" column="45" lean-forward="true" selection-start-line="363" selection-start-column="45" selection-end-line="363" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/scalding/typed/TypedPipe.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/scalding-core_2.11/0.13.1/d4f33c4f1c31df14547abddaca7384bc6c450106/scalding-core_2.11-0.13.1-sources.jar!/com/twitter/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/3e5b3772329aacb2036ebf9941ce6ffb843baf9f/scala-library-2.11.5-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/Algo133_4.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/Algo133_2.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalding/Algo133_6.scala" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.5/3e5b3772329aacb2036ebf9941ce6ffb843baf9f/scala-library-2.11.5-sources.jar!/scala/Option.scala">
@@ -1064,8 +1076,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scriptFile.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/sample_script.pig" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.pig">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.pig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="55" lean-forward="true" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/pig_1537421439514.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/result.tsv/.part-m-00000.crc" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/result.tsv/part-m-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/pig_1537422959332.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/result.tsv/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1075,29 +1123,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.pig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.pig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/Join_data/Join_by_field.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/sample_script.pig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/extra">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/select_columns/column_generator.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
+        <state relative-caret-position="1215">
           <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/pig_1537434832087.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/pig_1537434929894.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/pig_1537435880675.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/specialized_joins_pig/apache_nobots_tsv.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/specialized_joins_pig/nobots_ip_country_tsv.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/specialized_joins_pig/nobots_ip_country_tsv2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/specialized_joins_pig/skewed_apache_nobots_tsv.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="904">
+            <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.pig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/merge_sparse.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.pig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/special_join.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/replicated_result.tsv/part-m-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="369" column="52" selection-start-line="369" selection-start-column="52" selection-end-line="369" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/extra">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="25" selection-start-column="433" selection-end-line="25" selection-end-column="443" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/specialized_joins/skewed_result.tsv/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5259" />
       </provider>
     </entry>
   </component>
