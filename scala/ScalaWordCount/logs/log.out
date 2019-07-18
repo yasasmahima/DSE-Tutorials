@@ -1,0 +1,20 @@
+TIME :: 18:06:13,247  INFO   Beginning logging
+TIME :: 18:06:13,249  DEBUG   creating a buffered source
+TIME :: 18:06:13,400  WARN   buffered source is not closed
+TIME :: 18:06:13,400  DEBUG   Reading File
+TIME :: 18:06:13,617  DEBUG   Formatting words without any special characters
+TIME :: 18:06:13,744  DEBUG   Converting the entire paragraph to char array
+TIME :: 18:06:13,783  DEBUG   printing number of total characters to console
+TIME :: 18:06:13,787  DEBUG   Converting char array to set
+TIME :: 18:06:13,828  DEBUG   printing unique character to console
+TIME :: 18:06:13,828  DEBUG   Creating file to write
+TIME :: 18:06:13,828  DEBUG   creating buffered writer
+TIME :: 18:06:13,828  DEBUG   writing each unique character to file unique words 
+TIME :: 18:06:13,829  WARN   Buffered writer not closed
+TIME :: 18:06:13,830  DEBUG   Buffered writer closed
+TIME :: 18:06:13,830  DEBUG   Creating empty mutable map
+TIME :: 18:06:13,834  DEBUG   adding key value pairs for character occurence
+TIME :: 18:06:13,861  DEBUG   adding k ->v to map finished
+TIME :: 18:06:13,861  DEBUG   printing mutable map with character occurence to console
+TIME :: 18:06:13,865  DEBUG   bufferedSource closed
+TIME :: 18:06:13,865  DEBUG   end of the line - program exit 0
