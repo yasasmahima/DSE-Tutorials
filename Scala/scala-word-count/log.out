@@ -1,0 +1,23 @@
+2019-07-19 10:16:08,259 Program Starting
+2019-07-19 10:16:08,261 Reading file: Scala Task 01.txt
+2019-07-19 10:16:08,357 Getting the whole file as a String
+2019-07-19 10:16:08,358 Replacing all the irrelevant characters with empty strings
+2019-07-19 10:16:08,361 Getting every character to a list
+2019-07-19 10:16:08,478 Printing the total number of characters
+2019-07-19 10:16:08,481 Getting every character to a set
+2019-07-19 10:16:08,504 Writing unique characters to file: uniqueCharacters.txt
+2019-07-19 10:16:08,505 Printing the number of unique characters
+2019-07-19 10:16:08,505 Getting the occurrence of each character
+2019-07-19 10:16:08,553 Printing the occurrence of each character
+2019-07-19 10:16:59,186 Program Starting
+2019-07-19 10:16:59,187 Reading file: Scala Task 01.txt
+2019-07-19 10:16:59,266 Getting the whole file as a String
+2019-07-19 10:16:59,267 Replacing all the irrelevant characters with empty strings
+2019-07-19 10:16:59,270 Getting every character to a list
+2019-07-19 10:16:59,361 Printing the total number of characters
+2019-07-19 10:16:59,363 Getting every character to a set
+2019-07-19 10:16:59,388 Writing unique characters to file: uniqueCharacters.txt
+2019-07-19 10:16:59,389 Printing the number of unique characters
+2019-07-19 10:16:59,389 Getting the occurrence of each character
+2019-07-19 10:16:59,440 Printing the occurrence of each character
+2019-07-19 10:16:59,443 Program finished with exit code 0
