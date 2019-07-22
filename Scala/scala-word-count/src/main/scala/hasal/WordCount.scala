@@ -1,8 +1,7 @@
 package hasal
 
 import java.io.{BufferedWriter, FileWriter}
-
-import org.apache.log4j.{BasicConfigurator, Logger}
+import org.apache.log4j.{Logger, BasicConfigurator}
 
 object WordCount {
 
@@ -13,14 +12,14 @@ object WordCount {
     logger.info("Program Starting")
     var lines :String = ""
     try {
-      logger.debug("Reading file: Scala Task 01.txt")
+      logger.info("Reading file: Scala Task 01.txt")
       val source = scala.io.Source.fromFile("in/Scala Task 01.txt")
       logger.info("Getting the whole file as a String")
       lines = try source.mkString finally source.close()
     }
     catch{
       case x: java.io.FileNotFoundException => {
-        logger.debug("Caught exception while reading file: Scala Task 01.txt")
+        logger.info("Caught exception while reading file: Scala Task 01.txt")
         println("This file cannot be found")
       }
     }
