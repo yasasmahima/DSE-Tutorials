@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Task 1- Move Given Text File"
+
+read -p "Enter Path of the text file : " sourcePath
+read -p "Enter Path of the destination : " destination
+
+mv $sourcePath $destination

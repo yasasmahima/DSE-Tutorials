@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p "Input Number : " input
+
+if ! [[ "$input" =~ ^[0-9]+$ ]]
+    then
+        echo "Please Input a Integer"
+    else
+	    echo "Input is a Integer"
+
+fi
+
+

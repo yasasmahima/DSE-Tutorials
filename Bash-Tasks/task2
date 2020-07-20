@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+javac /home/yasasm/Desktop/ZoneProjects/Java-Tutes/App.java
+
+java App
+
+if [ $? -eq 0 ]
+then
+    echo "Compile successfully"
+else
+	echo "Compile Failed"
+
+fi
+
+

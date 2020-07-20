@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -p "Input String : " input
+
+echo "Number of Characters is : " ${#input}
+
